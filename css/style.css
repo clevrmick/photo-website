@@ -32,7 +32,8 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 0 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .header__navbar{
     display: flex;
@@ -104,7 +105,46 @@ body{
     color: #fff;
     font-size: 1.8rem;
 }
-.galary{
-    
-}
 
+.mainSection{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin: 40px 0;
+}
+.galary__title{
+    font-size: 2.6rem;
+    font-weight: 500;
+    color: #535353;
+    margin: 2rem 1.2rem;
+    text-transform: capitalize;
+}
+.galary__masonary{
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 2400px;
+    margin: auto;
+    width: 100%;
+}
+.m-block{
+    width: 33.33%;
+    padding: 12px;
+}
+.m-block img{
+    width: 100%;
+    cursor: pointer;
+    transition: transform 1s;
+}
+.m-block img:hover{
+    transform: scale(1.05);
+}
+.galary__btn{
+    display: block;
+    width: 50%;
+    max-width: 350px;
+    background: #ff5361;
+    color: #fff;
+    text-align: center;
+    padding: 14px 0;
+    border-radius: 30px;
+    margin: 60px auto;
+}
